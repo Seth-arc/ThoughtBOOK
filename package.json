@@ -1,0 +1,31 @@
+{
+    "name": "thought-book",
+    "version": "1.0.0",
+    "description": "A simple app to record your thoughts for the day",
+    "main": "index.js",
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "eslint": "^8.5.0",
+      "eslint-config-airbnb": "^18.2.1",
+      "eslint-plugin-import": "^2.25.3",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-react": "^7.27.1",
+      "eslint-plugin-react-hooks": "^4.3.0",
+      "prettier": "^2.4.1"
+    },
+    "scripts": {
+      "start": "webpack serve --mode development --open",
+      "build": "webpack --mode production",
+      "lint": "eslint . --ext .js,.jsx"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your-username/thought-book.git"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  
